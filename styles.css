@@ -1,0 +1,53 @@
+body{
+  background-color:  #ccddff; 
+margin: 70px;
+padding: 60px;
+background-image: url(robot1.png) ;
+background-position: left;
+background-repeat: no-repeat;
+border-image-source: 40px;
+
+}
+
+
+
+
+button {
+  background-color:#004de6;
+  border-radius:4px;
+  border:3px solid #fff;
+  color: white;
+  padding-right:40px;
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+   text-decoration: none;
+  font-size: 15px;
+  margin:15px ;
+    border-radius: 25%
+
+  }
+button:hover {
+  background-color: #ff6666;
+
+    color: white;
+}
+
+#forwards{
+margin-top: 15%;
+margin-left: 40.9%}
+#back{
+  margin-left: 41%;
+ transform: translate(16%,-130);
+}
+#Stop{
+ margin-left: 43%;
+ transform: translate(1%,-110);
+}
+#right{
+margin-left: 56%;
+transform:translate(-30%,-250%);}
+#left{
+  margin-left: 30%;
+transform: translate(-580%,150%);
+}
